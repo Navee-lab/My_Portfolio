@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/3094b4659c.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="task2.css">
+        
+<style>
+.para{
+font-size: 25px;
+color:black;
+}
+.navbar-brand{
+font-size: 25px;
+font-weight: bold;
+color: #007bff;
+}
+.nav-link{
+font-size: 20px;
+color: #6c757d;
+}
+.nav-link:hover{
+color: #007bff;
+}
+.bg{
+background-color: #f2f2f2;
+}
+.imgfr{
+width: 400px;
+height: 400px;
+border-radius: 50%;
+}
+.handcolor{
+color: #007bff;
+}
+.fontbg{
+color: #007bff;
+
+}
+.lbg{
+
+color: #007bff;
+padding: 10px;
+border-radius: 50%;
+margin-right:10px;
+}
+.lbg1{
+
+color: black;
+padding: 10px;
+border-radius: 50%;
+
+}
+.lb{
+color: #da2607;
+font-size:10px;
+}
+.he{
+height: 50px;
+font-size: 20px;
+padding: 10px;
+border-radius: 10px;
+border: none;
+background-color: #007bff;
+color: white;
+}
+.bbbg{
+margin: 10px;
+}
+.mt-2{
+margin-top: 20px;
+}
+.card{
+width: 200px;
+height: 250px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.card img{
+width: 100%;
+height: 150px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
+.card a{
+text-decoration: none;
+color: black;
+}
+.card a:hover{
+color: #007bff;
+}
+</style>
+   
+
+        
+    </head>
+    
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <a class="navbar-brand" href="#">
+                Telukala Naveena Sahu 
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class= "collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav m-auto">
+                <a class="nav-link active" href="#" onclick="display('sectionmain')">Intro About Me <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#" onclick="display('sectionabout')" >About Me</a>
+                <a class="nav-link" href="#" onclick="display('sectionprojects')" >Projects</a>
+                <a class="nav-link" href="#" onclick="display('sectionachievements')">Achievements</a>
+                <a class="nav-link" href="#"  onclick="display('sectioncontactme')">Contact Me</a>
+            </div>
+            </div>
+          </nav>
+          <div class="container para bg" id="sectionmain">
+            <div class="row mt-5 mb-3 ">
+                <div class="col-6">
+                </br>
+                    <h1>Hi i'm  Telukala Naveena Sahu
+                        <i class="fa-solid fa-hand-peace handcolor"></i>
+                    </h1>
+                    <p>A Passionate Full Stack Developer <i class="fa-solid fa-rocket"></i> having an experience of building web and mobile 
+                    applications with javascript/html/css and some other libraries and framework.</p>
+                    <p>Reach Me out at</p>
+                    <i class="fa-brands fa-github fontbg lbg1" style="font-size: 30px;"></i>
+                    <a href=" https://www.linkedin.com/in/telukala-naveena-sahu-5b71b6289"> <i class="fa-brands fa-linkedin fontbg lbg " style="font-size: 30px;"></i> </a>
+                    
+                     <a href="https://www.instagram.com/ms_blu_moon/"> <i class="fa-brands fa-instagram lb" style="color: #da2607; font-size: 30px; "></i></a>
+                    <div class="">
+                        <button class="bbbg he mt-5 " onclick="display('section1')">Contact Me</button>
+                    
+                        <a href = "my_resume.pdf" > <button class="bbbg he mt-5">See My Resume</button></a>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpV8QXNgay3hbhQ2X-WHKX87OkS87DK7aX_w&s" class="imgfr mt-5"/>
+                </div>
+            </div>
+          </div>
+          <div id="sectionabout" class="container bg mt-5" >
+            <div class="row mt-5 mb-3">
+                <div class="col-12 mt-5 mb-5">
+                    <p class="para">I am Telukala Naveena Sahu ,currently pursuing my Bachelor's Of Technology in Vignan's 
+                        Institute Of Engineering For Women.I am passinated for creating new web pages
+                        using HTML,CSS,BOOTSTRAP and very Enthusiatic for learning new things.I am very eager towards
+                        programming.I have participated more than 30+ contestes in <a href=" https://www.codechef.com/users/naveena_sahu" >CODECHEF</a> with maintaining a RATING of 1130 and having
+                        a daily consistent streak of 110+ days.I am also doing a Internship in DATA ANALYTIC 
+                        in EXCELR.</p>
+                    <button class="bbbg he mt-5 "  onclick="display('sectionmain')">Click Me To Go Home</button>
+                </div>
+            </div>
+          </div>
+          <div id="sectionprojects" class="container bg">
+            <div class="row mt-5 mb-5">
+                <div class="col-12 mt-5 mb-3">
+               
+                   <h1> Projects</h1>
+                </div>
+                <div class="d-flex flex-row " >
+                    <div class=" card shadow-lg col-2 mr-3 ml-5 mt-2">
+                        <a href="C:\Users\tnave\OneDrive\Desktop\static_website\task2.html" >
+                            <div>
+                            <div >
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTObEkrHG7nI_XbaMO_Y2Bc54Ka-Zy3OydOyw&s" class=" mt-2 imgprofile"/>
+                            </div>
+                            <div class="text-center">
+                                <p>I have done a project on my portifolio website</p>
+                            </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" card shadow-lg  col-2 mr-3 mt-2">
+                        <a href="file:///C:/Users/tnave/OneDrive/Desktop/static_website/ecomerce.html" >
+                            <div>
+                            <div >
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8awmWuT36pKgWBv3koX6qmPKbS-C8ZSyy1w&s" class="  mt-2 imgprofile"/>
+                            </div>
+                            <div class="text-center">
+                                <p>I have also done a project on the Ecomerce Webpage </p>
+                            </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" card shadow-lg  col-2 mr-3 mt-2">
+                        <a href="C:\Users\tnave\OneDrive\Desktop\static_website\foundations.html" >
+                            <div>
+                            <div >
+                                <img src="https://img-c.udemycdn.com/course/750x422/4392170_4141.jpg" class="imgprofile  mt-2 "/>
+
+                            </div>
+                            <div class="text-center">
+                                <p>I have also done a project on the "Foundations Of Technology Page" </p>
+                            </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class=" card shadow-lg  col-2 mr-3 mt-2">
+                        <a href="C:\Users\tnave\OneDrive\Desktop\static_website\moviepage.html" >
+                            <div>
+                            <div >
+                                <img src="https://lumiere-a.akamaihd.net/v1/images/p_findingnemo_19752_05271d3f.jpeg?region=0%2C0%2C540%2C810" class="imgprofile  mt-2 "/>
+
+                            </div>
+                            <div class="text-center">
+                                <p>I have also done a project on the "Movies Page"</p>
+                            </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card shadow-lg  col-2 mr-1 mt-2">
+                        <a href="C:\Users\tnave\OneDrive\Desktop\static_website\musicpage.html" >
+                            <div>
+                            <div >
+                                <img src="https://i.scdn.co/image/ab67616d0000b273114ffae8c69f06c8a8dd228b" class="imgprofile  mt-2 "/>
+
+                            </div>
+                            <div class="text-center">
+                                <p>I have also done a project on the "Sleeping Time Musics Page"</p>
+                            </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+           <!---   <div class="d-flex flex-row " >
+                    <div class=" card shadow-lg  col-3 mr-1">
+                        <a href="C:\Users\tnave\OneDrive\Desktop\static_website\yogapage.html" >
+                            <div>
+                            <div >
+                                <img src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781800651876/yoga-for-everyday-life-9781800651876_lg.jpg" class="imgprofile"/>
+
+                            </div>
+                            <div class="text-center col-3">
+                                <p>I have done a project on the "Yoga Page"</p>
+                            </div>
+                            </div>
+                        </a>
+                    </div>
+                </div> --->
+                <div>
+            <button onclick="display('sectionmain')" class="bbbg he mt-5 " >Click Me To Go Home</button>
+                    </div>
+                </div>
+       
+                
+        </div>
+          </div>
+          <div id="sectionachievements" class="container bg mt-5">
+            <div class="row mt-5 mb-5">
+                <div class="col-12 mt-5">
+            <ul>
+            <h1>Nptel</h1>
+            <p class="para">Programming in Java</p>
+            <li><p class="para">Through this programming in java certifaction course i have came to know 
+                many OOPS concepts such as Data Abstraction,Inheritance,Polymorphism,
+                Polymorphism types such as Run time polymorphism and compile time polymorphism,threads,
+                Classes ,Methods,Objects etc..
+                </p></li>
+                <button onclick="display('sectionmain')" class="bbbg he mt-5 " >Click Me To Go Home</button>
+                </ul>  
+            </div>    
+            </div>       
+          </div>
+          <div id="sectioncontactme" class="container bg">
+            <div class="row mt-5 mb-5">
+                <div class="col-12 para mt-5">
+            <h1>My Contact Details:</h1>
+            <p>Email id:</p>
+            <p> telukalanaveenasahu@gmail.com</p>
+            <p>Phone Number:</p>
+            <p>...</p>
+            <button onclick="display('sectionmain')" class="bbbg he mt-5 " >Click Me To Go Home</button>
+
+        </div>
+        </div>
+          </div>
+          <div id="section1" class="container">
+            <div class="row mt-5">
+                <div class="col-12">
+                    <h1>9493086135</h1>
+                    <button onclick="display('sectionmain')" class="bbbg he mt-5 " >Click On To Go Home</button>
+                </div>
+                </div>
+          </div>
+          <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+            </body>
+</html>
