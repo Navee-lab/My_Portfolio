@@ -1,5 +1,5 @@
 ## Personal Portfolio Website
-A responsive portfolio site made with HTML and CSS, showcasing my projects, skills, and contact details.
+A responsive portfolio site made with HTML, CSS, and Bootstrap showcasing my projects, skills, and contact details.
 
 
 ### 🚀 Features
